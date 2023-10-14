@@ -20,7 +20,7 @@ public class Login {
 		String browser = System.getProperty("browser");
 		System.out.print(browser);
 		if(browser == null){
-			browser = "chrome";
+			browser = "edge";
 		}
 		if(browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
